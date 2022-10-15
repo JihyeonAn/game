@@ -8,7 +8,7 @@ int main()
 	int length;
 	bool isPalindrome= true;
 	
-	printf("�ܾ �Է��ϼ���: ");
+	printf("´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
 	scanf("%s",word);
 	
 	length=strlen(word);
