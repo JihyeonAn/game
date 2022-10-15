@@ -20,13 +20,13 @@ int main(void)
 	do
 	{
 		count++;
-		printf("%2d ¹ø ¹®ÀÚÀÔ·Â >",count);
+		printf("%2d Â¹Ã¸ Â¹Â®Ã€ÃšÃ€Ã”Â·Ã‚ >",count);
 		key=getch();
 		push(key);
 		printf("%c \n",key);
 	}while(key!=27);
 	printf("\n\n");
-	printf("µ¥ÀÌÅÍ pop°úÁ¤ \n\n");
+	printf("ÂµÂ¥Ã€ÃŒÃ…Ã popÂ°ÃºÃÂ¤ \n\n");
 	while(top != NULL)
 	{
 		key = pop();
