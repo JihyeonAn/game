@@ -24,5 +24,5 @@
 
 **주소**
 
-[github주소](https://github.com/JihyeonAn/game/tree/main/1101)
+[github.io 주소](https://github.com/JihyeonAn/game/tree/main/1101)
 [Netlify 주소](https://app.netlify.com/sites/rad-otter-c95b29/overview)
