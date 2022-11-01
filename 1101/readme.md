@@ -14,7 +14,7 @@
 ```html
 <table class="uk-table uk-table-striped">…</table>
 ```
-> [Bootstrap의 button]([https://getbootstrap.com/docs/5.0/components/buttons/])
+> [Bootstrap의 button](https://getbootstrap.com/docs/5.0/components/buttons/)
 ```html
 <section id="contact">
   ...
