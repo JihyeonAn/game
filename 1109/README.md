@@ -9,6 +9,7 @@ type: 'bar',
 '''
 바 형태로 차트 표현
 
+
 **2. 도넛 차트**
 '''
 const myChart2 = new Chart(ctx2, {
@@ -17,6 +18,7 @@ const myChart2 = new Chart(ctx2, {
                 labels: ['넷플릭스', '웨이브', '티빙', '유튜브', '쿠팡플레이']
 '''
 도넛 형태로 차트 표현
+
 
 **3. line 차트**
 '''
@@ -29,6 +31,7 @@ const myChart2 = new Chart(ctx2, {
 
 선 형태로 차트 표현
 
-[github.io 주소](https://github.com/JihyeonAn/game/tree/main/1101)
-[Netlify 주소](https://app.netlify.com/sites/rad-otter-c95b29/overview)
+
+[github.io 주소](https://github.com/JihyeonAn/game/blob/main/1109/chart.html)
+[Netlify 주소](https://app.netlify.com/sites/silly-cannoli-2aa3da/overview)
 
