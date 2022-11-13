@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="500" height="800"></canvas>
+    <script>
+        const canvas = document.querySelector("#canvas");
+        const ctx = canvas.getContext("2d");
+
+        let x = canvas.width / 2;
+        let y = canvas.height - 30;
+
+        let mx = 2,
+            my = -2;
+
+        let up = false,
+            down = false,
+            right = false,
+            left = false;
+
+        let rw = Math.random() * canvas.width,
+            rh = Math.random() * canvas.height;
+
+        let score = 0;
+        canvas.style.border = "1px solid #222";
+
+        setInterval(move, 10);
+
+        function draw() {
+            ctx.beginPath();
+            ctx.arc(x, y, 10, 0, Math.PI * 2);
+            ctx.fillStyle = "#222";
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        function move() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            draw();
+            targetDraw();
+            point();
+            if (right && x < canvas.width - 10) {
+                x += mx;
+            } else if (left && x > 10) {
+                x += my;
+            } else if (up && y > 10) {
+                y += my;
+            } else if (down && y < canvas.height - 10) {
+                y += mx;
+            }
+        }
+
+        function targetDraw() {
+            ctx.beginPath();
+            ctx.arc(rw, rh, 10, 0, Math.PI * 2);
+            ctx.fillStyle = "red";
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        function point() {
+            if ((x <= rw + 15 && x >= rw - 15) && (y <= rh + 15 && y >= rh - 15)) {
+                score++;
+                rw = Math.random() * canvas.width;
+                rh = Math.random() * canvas.height;
+            }
+            ctx.beginPath();
+            ctx.font = "italic 22px Calibri";
+            ctx.fillStyle = "blue";
+            ctx.fillText(`Point : ${score}`, 5, 20);
+            ctx.closePath;
+        }
+        const keyDownHandler = (e) => {
+            if (e.key == "Right" || e.key == "ArrowRight") {
+                right = true;
+            } else if (e.key == "Left" || e.key == "ArrowLeft") {
+                left = true;
+            } else if (e.key == "Up" || e.key == "ArrowUp") {
+                up = true;
+            } else if (e.key == "Down" || e.key == "ArrowDown") {
+                down = true;
+            }
+        }
+
+        const keyUpHandler = (e) => {
+            if (e.key == "Right" || e.key == "ArrowRight") {
+                right = false;
+            } else if (e.key == "Left" || e.key == "ArrowLeft") {
+                left = false;
+            } else if (e.key == "Up" || e.key == "ArrowUp") {
+                up = false;
+            } else if (e.key == "Down" || e.key == "ArrowDown") {
+                down = false;
+            }
+        }
+
+        document.addEventListener("keydown", keyDownHandler, false);
+        document.addEventListener("keyup", keyUpHandler, false);
+    </script>
+</body>
+
+</html>
