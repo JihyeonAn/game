@@ -29,4 +29,4 @@ ball.html수정
 
 [github.io 주소](https://github.com/JihyeonAn/game/tree/main/1101)
 [Netlify 주소](https://app.netlify.com/sites/rad-otter-c95b29/overview)
-[start화면 참고 주소] (https://dw3232.tistory.com/31)
+[Start_ex 화면 참고 주소](https://dw3232.tistory.com/31)
