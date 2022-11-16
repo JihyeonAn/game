@@ -89,4 +89,4 @@ function Enemy() {
 **주소**
 
 [github.io 주소](https://github.com/JihyeonAn/game/tree/main/1115)
-[Netlify 주소](https://app.netlify.com/sites/rad-otter-c95b29/overview)](https://app.netlify.com/sites/reliable-taiyaki-436268/overview)
+[Netlify 주소](https://app.netlify.com/sites/reliable-taiyaki-436268/overview)
