@@ -1,4 +1,4 @@
-index & start.html & main.js
+index.html & start.html & main.js
 ===============
 
 **코드 분석**
