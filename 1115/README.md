@@ -1,7 +1,7 @@
 ball.html수정
 ===============
 
-**사용한 framework**
+**코드 분석**
 
 > [Bulma의 Hero](https://bulma.io/documentation/layout/hero/)
 ```html
