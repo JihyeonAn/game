@@ -68,7 +68,7 @@ function Enemy() {
     enemyList.push(this);
   };
   ```
-  > ** 점수내는 방법**
+  > **점수내는 방법**
   ```js
   for (let i = 0; i < enemyList.length; i++) {
       if (
@@ -78,7 +78,7 @@ function Enemy() {
       ) 
    ...
   ```
-  > ** 게임종료 **
+  > **게임종료 **
   ```js
   if (this.y >= canvas.height - 32) {
       gameOver = true;
