@@ -78,7 +78,7 @@ function Enemy() {
       ) 
    ...
   ```
-  > **게임종료 **
+  > **게임종료**
   ```js
   if (this.y >= canvas.height - 32) {
       gameOver = true;
