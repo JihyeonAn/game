@@ -3,7 +3,7 @@ ball.html
 
 **코드 분석**
 
-> *Canvas 설정*
+> **Canvas 설정**
 ```html
 <canvas id="canvas" width="500" height="800"></canvas>
 ```
