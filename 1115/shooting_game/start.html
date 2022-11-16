@@ -40,18 +40,16 @@ body{
 </style>
 
 <script>
-var flag=true;
+let flag=true;
 function init(){
     document.querySelector("button").addEventListener("click", function(){
-        // 메인 페이지로 링크!!
-        // a 태그를 자바스크립트로 표현한 것이 location.
         location.href="shooting_game.html";
     });
 }
 
 //깜빡거리는 효과
 function blink(){
-    var vision = (flag)? "none":"block";
+    let vision = (flag)? "none":"block";
     document.querySelector("p").style.display= vision;
     flag=!flag;
 }
