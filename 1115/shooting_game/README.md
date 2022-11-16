@@ -1,4 +1,4 @@
-start.html
+start.html & main.js
 ===============
 
 **코드 분석**
@@ -33,17 +33,13 @@ function init(){
         location.href="shooting_game.html";
     });
 ```
-> **점수 내는 방법**
-```html
-function point() {
-            if ((x <= rw + 15 && x >= rw - 15) && (y <= rh + 15 && y >= rh - 15)) {
-                score++;
-                rw = Math.random() * canvas.width;
-                rh = Math.random() * canvas.height;
-            }
+> **이미지 삽입**
+```js
+function loadImage() {
+  backgroundImage = new Image();
+  backgroundImage.src = "images/backgroundImage.png";
 ```
-===============
-main.js
+>
 
 
 **주소**
