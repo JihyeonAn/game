@@ -39,11 +39,54 @@ function loadImage() {
   backgroundImage = new Image();
   backgroundImage.src = "images/backgroundImage.png";
 ```
->
+> **총알 생성**
+```js
+function Bullet() {
+  this.x = 0;
+  this.y = 0;
+  this.init = () => {
+    this.x = spaceshipX + 5;
+    this.y = spaceshipY - 60;
+    this.alive = true; //true면 살아있는 총알, false면 죽은 총알
+
+    bulletList.push(this);
+  };
+  this.update = function () {
+    this.y -= 7;
+  };
+  ```
+  > **적 생성**
+  ```js
+  let enemyList = [];
+function Enemy() {
+  this.x = 0;
+  this.y = 0;
+  this.init = () => {
+    this.y = 0;
+    this.x = RandomValue(0, canvas.width - 32); // 최대, 최소 받음
+
+    enemyList.push(this);
+  };
+  ```
+  > ** 점수내는 방법**
+  ```js
+  for (let i = 0; i < enemyList.length; i++) {
+      if (
+        this.y <= enemyList[i].y &&
+        this.x >= enemyList[i].x-15 &&
+        this.x <= enemyList[i].x + 15
+      ) 
+   ...
+  ```
+  > ** 게임종료 **
+  ```js
+  if (this.y >= canvas.height - 32) {
+      gameOver = true;
+      audio2.play();
+  ```
 
 
 **주소**
 
 [github.io 주소](https://github.com/JihyeonAn/game/tree/main/1115)
 [Netlify 주소](https://app.netlify.com/sites/rad-otter-c95b29/overview)
-[Start 화면 참고 주소](https://dw3232.tistory.com/31)
