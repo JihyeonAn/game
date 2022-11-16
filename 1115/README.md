@@ -23,15 +23,15 @@ const keyDownHandler = (e) => {
 let rw = Math.random() * canvas.width,
             rh = Math.random() * canvas.height;
 ```
-> [점수 내는 방법
-'''html
+> 점수 내는 방법
+```html
 function point() {
             if ((x <= rw + 15 && x >= rw - 15) && (y <= rh + 15 && y >= rh - 15)) {
                 score++;
                 rw = Math.random() * canvas.width;
                 rh = Math.random() * canvas.height;
             }
-'''
+```
 
 **주소**
 
