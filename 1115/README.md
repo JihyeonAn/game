@@ -95,5 +95,4 @@ function Enemy() {
 
 **주소**
 
-[github.io 주소](https://github.com/JihyeonAn/game/tree/main/1115)
-[Netlify 주소](https://app.netlify.com/sites/reliable-taiyaki-436268/overview)
+[github.io 주소](https://jihyeonan.github.io/game/1115/shooting_game/)
