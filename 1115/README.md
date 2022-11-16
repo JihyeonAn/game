@@ -1,13 +1,13 @@
-ball.html수정
+ball.html
 ===============
 
 **코드 분석**
 
-> [Canvas 설정]
+> *Canvas 설정*
 ```html
 <canvas id="canvas" width="500" height="800"></canvas>
 ```
-> [KeyDown,KeyUp]
+> KeyDown,KeyUp
 ```html
 const keyDownHandler = (e) => {
             if (e.key == "Right" || e.key == "ArrowRight") {
@@ -18,7 +18,7 @@ const keyDownHandler = (e) => {
                 right = false;
                 ...
 ```
-> [원 자동생성]
+> 원 자동생성
 ```html
 let rw = Math.random() * canvas.width,
             rh = Math.random() * canvas.height;
