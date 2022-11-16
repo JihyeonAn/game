@@ -1,8 +1,15 @@
-start.html & main.js
+index & start.html & main.js
 ===============
 
 **코드 분석**
 
+>**main.js로 넘어가기**
+```html
+<body>
+    <h1>슈팅게임</h1>
+    <script src="./main.js"></script>
+  </body>
+ ```
 > **시작 화면 구성**
 ```html
 #wrapper{
