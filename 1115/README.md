@@ -7,7 +7,7 @@ ball.html
 ```html
 <canvas id="canvas" width="500" height="800"></canvas>
 ```
-> KeyDown,KeyUp
+> **KeyDown,KeyUp**
 ```html
 const keyDownHandler = (e) => {
             if (e.key == "Right" || e.key == "ArrowRight") {
@@ -18,12 +18,12 @@ const keyDownHandler = (e) => {
                 right = false;
                 ...
 ```
-> 원 자동생성
+> **원 자동생성**
 ```html
 let rw = Math.random() * canvas.width,
             rh = Math.random() * canvas.height;
 ```
-> 점수 내는 방법
+> **점수 내는 방법**
 ```html
 function point() {
             if ((x <= rw + 15 && x >= rw - 15) && (y <= rh + 15 && y >= rh - 15)) {
