@@ -32,6 +32,6 @@ const myChart2 = new Chart(ctx2, {
 선 형태로 차트 표현
 
 
-[github.io 주소](https://github.com/JihyeonAn/game/blob/main/1109/chart.html)
+[github.io 주소](https://jihyeonan.github.io/game/1109/chart.html)
 [Netlify 주소](https://app.netlify.com/sites/silly-cannoli-2aa3da/overview)
 
