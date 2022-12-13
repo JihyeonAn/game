@@ -27,5 +27,5 @@ index.html수정
 
 **주소**
 
-[github.io 주소](https://github.com/JihyeonAn/game/tree/main/1101)
+[github.io 주소](https://jihyeonan.github.io/game/1101/index.html)
 [Netlify 주소](https://app.netlify.com/sites/rad-otter-c95b29/overview)
