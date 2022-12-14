@@ -58,4 +58,4 @@ private IEnumerator Movement()
 
 **주소**
 
-[github.io 주소](https://jihyeonan.github.io/game/1101/index.html)
+[github.io 주소](https://jihyeonan.github.io/game/1214/Assets/Scenes/SampleScene)
