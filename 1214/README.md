@@ -51,7 +51,9 @@ private IEnumerator Movement()
    ```
 
 > 5.효과음 생성
+
 > 6.코인을 다 먹어야 통과됨
+
 > 7.스테이지 만들기
 
 **주소**
