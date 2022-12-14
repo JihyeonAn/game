@@ -49,7 +49,7 @@ void game_control(void)
 	}
 ```
 
-> 4. 난이도에 따라 50,70,100으로 되도록함
+> 4.난이도에 따라 50,70,100으로 되도록함
 ```
 void two_game_control()
 {
