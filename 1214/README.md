@@ -3,11 +3,8 @@
 
 **수정 사항**
 
-> [배경추가]
-```C#
+> 1.배경추가
 
-
-```
 > [움직이는 발판생성]
 ```html
 <table class="uk-table uk-table-striped">…</table>
